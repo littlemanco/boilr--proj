@@ -1,0 +1,52 @@
+= Project
+
+This repository is a "scaffold" repository that is used to generate a "full project". The vast majority of projects
+written more recently follow the same pattern and it is useful to be able to generate the boilerplate of such
+projects quckly.
+
+[cols="h,1"]
+|===
+| License        | MIT
+| Language       | en-AU¹
+|===
+
+== Installation
+
+[source,bash]
+----
+boilr template download littlemanco/boilr--proj proj
+----
+
+== Usage
+
+[source,bash]
+----
+export PROJECT="foo"
+export NAMESPACE="littlemanco"
+
+mkdir $PROJECT
+cd $PROJECT
+
+git init
+git remote add origin "git@github.com:$NAMESPACE/$PROJECT.git"
+
+boilr template use proj
+
+git add .
+git commit -F- <<EOF
+Initial commit
+
+This project is a project that has been bootstrapped with the bootstrap
+template:
+
+  https://l.littleman.co/35TiARb
+EOF
+----
+
+== Thanks
+
+- The https://github.com/tmrts/boilr[team behind boilr]
+
+== References
+
+1. Lingoes.net,. (2015). Language Code Table. Retrieved 4 June 2015, from http://www.lingoes.net/en/translator/langcode.htm
