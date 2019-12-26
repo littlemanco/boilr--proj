@@ -14,7 +14,7 @@ projects quckly.
 
 [source,bash]
 ----
-boilr template download littlemanco/boilr--proj proj
+oilr template download littlemanco/oilr--proj proj
 ----
 
 == Usage
@@ -30,7 +30,7 @@ cd $PROJECT
 git init
 git remote add origin "git@github.com:$NAMESPACE/$PROJECT.git"
 
-boilr template use proj
+oilr template use proj
 
 git add .
 git commit -F- <<EOF
@@ -45,7 +45,7 @@ EOF
 
 == Thanks
 
-- The https://github.com/tmrts/boilr[team behind boilr]
+- The https://github.com/tmrts/boilr[team behind boilr], subsequently forked into oilr
 
 == References
 
