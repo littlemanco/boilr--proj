@@ -1,0 +1,35 @@
+= {{ name }}
+
+// A short summary of the project
+
+[cols="h,1"]
+|===
+| License        | MIT
+| Language       | en-AU¹
+|===
+
+== Installation
+
+[source,bash]
+----
+# Steps to install the project
+----
+
+== Usage
+
+[source,bash]
+----
+# Steps to use the project
+# 
+# Could be:
+# - CLI commands
+# - cURL commands
+----
+
+== Thanks
+
+// A list of dependant projects
+
+== References
+
+1. Lingoes.net,. (2015). Language Code Table. Retrieved 4 June 2015, from http://www.lingoes.net/en/translator/langcode.htm
